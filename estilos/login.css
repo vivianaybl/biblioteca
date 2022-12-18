@@ -1,0 +1,59 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2? family= Fugaz+One & display=swap');
+
+body{
+    font-family: 'Fugaz One', cursive;
+    background: #79CED6;
+}
+.caja_logo{
+    margin-top: 150px;
+}
+
+.caja_menu1{
+    /*background-color: antiquewhite;*/
+    height: 100px;
+
+}
+.caja_menu2{
+    height: 100px;
+   /* background-color:cornflowerblue;*/
+    position: relative;
+
+}
+.caja_menu2 img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.caja_menu2 h4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.caja_menu3{
+    height: 100px;
+    /*background-color:darkturquoise;*/
+}
+
+.btn_login{
+    width: 100%;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 640px){
+    .caja_logo{
+        margin-top: 20px;
+    }
+    
+    
+}

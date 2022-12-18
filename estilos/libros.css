@@ -1,0 +1,101 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2? family= Fugaz+One & display=swap');
+
+body{
+    font-family: 'Fugaz One', cursive;
+    background: #79CED6;
+}
+
+section {
+    width: 85%;
+    max-width: 1200;
+    height: 200px;
+    margin: 30px auto ;
+}
+.caja_logo{
+    background-color: #79CED6;
+    height: 80px;
+    
+}
+.caja_logo img{
+    
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+}
+
+.caja_titulo{
+    background-color: #79CED6;
+    height: 70px;
+}
+.caja_titulo h1{
+    margin-left: 50%;
+}
+
+.nav-link{
+    color:black;
+}
+ 
+.caja_formulario1{
+    background-color: #79CED6;
+}
+
+.caja_formulario2{
+    background-color:#79CED6;
+}
+
+.caja_formulario3{
+    background-color:#79CED6;
+    
+}
+
+.titulo_formulario{
+    text-align: center;
+}
+
+.botones_formulario{
+    width: 49%;
+}
+
+.centrar_texto{
+    text-align: center;
+}
+
+
+.carousel h3{
+    margin-left: 40%;
+}
+
+.carousel-item__img {
+  width: 200px;
+  height: 250px;
+  border: 5px solid black;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.carousel-item__details {
+    position: absolute;
+    display: inline-block;
+    transform-origin: center left;
+    position: relative;
+    
+    
+}
+
+.carousel-item__details p {
+    margin: 2px 0px;
+    display: inline-block;
+    
+
+}
+.carousel-item__details--title {
+    margin: 2px 0px;
+    display: inline-block;
+}
+
+
